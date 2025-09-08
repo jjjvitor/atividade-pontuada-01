@@ -1,33 +1,37 @@
-import os 
+import os
 os.system("cls")
 
-nome = input("digite o seu nome: ")
 
 print("""
-    estado civil      
-
-    casado               
-    casada            
-""")
-
-estado_civil = input("digite o seu esado civil: ")
-
-print("""
-    sexo
       
-    f
-    m
+escolha o sexo
+       
+("f" feminino)\t ("m" masculino)
+      
+escolha o estado_civil
+      
+("casado")\t   ("casada")
+      
+("solteiro")\t  ("solteira")
+
 """)
 
-sexo = input("digite o seu sexo: ")
+nome = input("digite seu nome: ")
+sexo = input("digite seu sexo: ")
+estado_civil = input("digite seu estado civil: ")
 
-match estado_civil:
-    case 1:
-        if estado_civil = casada
-        print("quantos anos de casada")
-    case 2:
+if sexo == "f" and estado_civil == "casada":
+    input("quantos anos de casada: ")
 
-        print(f"nome: {nome}")
-        print(f"estado civil: {estado_civil}")
-        print(f"sexo: {sexo}")
+else:
+    ("opcao invalida")
+
+
+    print(f"nome: {nome}")
+    print(f"sexo: {sexo}")
+    print(f"estado civil: {estado_civil}")
+    
+
+
+print("fim")
 
